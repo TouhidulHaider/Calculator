@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  min-height: 100vh;
+  box-sizing: border-box; 
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #0e0e0e;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px #e0e0e0;
+}
+
+.calculator {
+  background-color: #1f2021; 
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%; 
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.display {
+  width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: right;
+  background-color: #e0f7fa; 
+  border: 2px solid #b2ebf2;
+  border-radius: 6px;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 56px; 
+  word-wrap: break-word; 
+  white-space: nowrap;
+}
+
+.nums-ops {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: stretch; 
+  box-sizing: border-box;
+}
+
+.nums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ops {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 10px;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e4e4e4; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #c4d1e9; 
+}
+
+button:active {
+  background-color: #9fdb9d; 
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); 
+  transform: translateY(1px); 
+
+.nums button:nth-child(10) { 
+  grid-column: 1; 
+}
+
+.ops button:nth-child(5) { 
+  grid-column: 1 / 3; 
+}
