@@ -3,41 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator App</title>
-    <link rel="stylesheet" href="styles/variables.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <h1 class="title">CalculatorZ</h1>
     <div class="calculator">
-        <div class="display">
-            <div class="previous-operand"></div>
-            <div class="current-operand"></div>
-        </div>
-        
-        <div class="buttons">
-            <button class="span-two">AC</button>
-            <button>DEL</button>
-            <button>÷</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>×</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>+</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>-</button>
-            <button>.</button>
-            <button>0</button>
-            <button class="span-two">=</button>
+        <div class="display"></div>
+        <div class="nums-ops">
+            <div class="nums">
+                <button>0</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+            </div>
+            <div class="ops">
+                <button>+</button>
+                <button>-</button>
+                <button>x</button>
+                <button>/</button>
+                <button>=</button>
+                <button>C</button>
+            </div>
         </div>
     </div>
 
-    <script src="scripts/utils.js"></script>
-    <script src="scripts/calculator.js"></script>
-    <script src="scripts/app.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
