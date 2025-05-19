@@ -4,7 +4,7 @@ A simple calculator application built using HTML, CSS, and JavaScript.
 
 ## Screenshot
 
-![Calculator Screenshot](calculatorX.png) 
+![Calculator Screenshot](calculatorZ.png) 
 
 ## Description
 
